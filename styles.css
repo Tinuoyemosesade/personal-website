@@ -1,0 +1,8 @@
+.main-header{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid red;
+    border-radius: 6px;
+}
