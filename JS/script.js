@@ -6,6 +6,12 @@ $(document).ready(function(){
             pagination: false
 
     });
-
+    let typed = new Typed(".typed", {
+        strings: ["Software Quality Assurance Manager.", "FrontEnd Development Enthusiast.", "Musician."],
+        typespeed: 70,
+        loop: true,
+        startDelay: 2000,
+        showCursor: false
+    });
 
 });
