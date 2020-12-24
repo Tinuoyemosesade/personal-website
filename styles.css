@@ -1,8 +1,26 @@
-.main-header{
-    font-family: 'Roboto', sans-serif;
-    color: red;
-    padding: 1rem;
-    margin: 1rem;
-    border: 1px solid red;
-    border-radius: 6px;
+
+ul {
+    list-style-type: none; 
+    display: flex;
+}
+li {
+    margin: 0.5rem 2rem;
+
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+* {
+    font-family: 'Nunito', sans-serif;
+}
+.main-img {
+    border-radius: 12px;
+}
+#salutation {
+    color:darkgreen;
 }
