@@ -69,7 +69,7 @@ filterBtns.forEach(btn => {
         portfolioItems.forEach(item => {
             const category = item.getAttribute('data-category');
             
-            if (filter === 'all' || category === filter) {
+            if (filter === 'all' || category === filter || (filter === 'featured' && category.includes('featured'))) {
                 item.classList.remove('hidden');
                 item.style.display = 'block';
             } else {

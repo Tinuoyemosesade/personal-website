@@ -867,6 +867,44 @@ section {
     box-shadow: var(--shadow-xl);
 }
 
+.featured-project {
+    border: 2px solid var(--primary-color);
+    position: relative;
+    overflow: visible;
+}
+
+.featured-project:hover {
+    transform: translateY(-15px);
+    box-shadow: var(--shadow-xl), var(--shadow-glow);
+}
+
+.featured-badge {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: var(--gradient-primary);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    z-index: 10;
+    box-shadow: var(--shadow-lg);
+    animation: pulse 2s infinite;
+}
+
+.featured-badge i {
+    font-size: 12px;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
 .portfolio-image {
     position: relative;
     height: 200px;
