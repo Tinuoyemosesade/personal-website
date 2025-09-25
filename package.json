@@ -6,7 +6,8 @@
   "scripts": {
     "start": "python3 -m http.server 8000",
     "build": "echo 'Static site - no build required'",
-    "dev": "python3 -m http.server 8000"
+    "dev": "python3 -m http.server 8000",
+    "netlify:build": "echo 'Static site - no build required'"
   },
   "keywords": [
     "portfolio",
