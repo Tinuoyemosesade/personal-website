@@ -1,0 +1,16 @@
+[build]
+  publish = "."
+  command = "echo 'Static site - no build required'"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[dev]
+  command = "python3 -m http.server 8000"
+  port = 8000
+  publish = "."

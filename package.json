@@ -1,0 +1,26 @@
+{
+  "name": "ade-tinuoye-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Ade Tinuoye - QA Engineer",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "qa-engineer",
+    "website",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Ade Tinuoye",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tinuoyemosesade/personal-website.git"
+  },
+  "homepage": "https://mosestinuoye.com"
+}
