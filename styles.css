@@ -1302,11 +1302,21 @@ section {
     .hero-stats {
         justify-content: center;
         gap: 20px;
+        flex-wrap: wrap;
     }
 
     .about-content {
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .skill-category {
+        padding: 30px 20px;
     }
 
     .timeline::before {
@@ -1332,6 +1342,27 @@ section {
         border-left-color: transparent !important;
     }
 
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .portfolio-filter {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .filter-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .testimonials-slider {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
     .contact-content {
         grid-template-columns: 1fr;
         gap: 40px;
@@ -1341,6 +1372,17 @@ section {
         flex-direction: column;
         text-align: center;
     }
+
+    .floating-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .floating-icon:nth-child(1) { top: 5%; right: -20px; }
+    .floating-icon:nth-child(2) { top: 25%; left: -20px; }
+    .floating-icon:nth-child(3) { bottom: 25%; right: -20px; }
+    .floating-icon:nth-child(4) { bottom: 5%; left: -20px; }
 }
 
 @media (max-width: 480px) {
@@ -1361,6 +1403,47 @@ section {
         width: 100%;
         max-width: 300px;
         justify-content: center;
+    }
+
+    .hero-stats {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .skill-category {
+        padding: 20px 15px;
+    }
+
+    .timeline-content {
+        padding: 20px;
+    }
+
+    .portfolio-card {
+        margin: 0 10px;
+    }
+
+    .testimonial-card {
+        padding: 30px 20px;
+    }
+
+    .contact-card, .contact-form {
+        padding: 30px 20px;
+    }
+
+    .nav-container {
+        padding: 0 15px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .section-padding {
+        padding: 80px 0;
     }
 }
 
